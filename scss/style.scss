@@ -1,0 +1,58 @@
+body {
+  background: rgb(199, 237, 245);
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+.content {
+  //border: 3px solid red;
+  width: 900px;
+  height: 100%;
+}
+.tab {
+  //border: 3px solid red;
+  height: 99%;
+}
+.tab img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+// button {
+//   height: 150px;
+//   background: purple;
+// }
+.sid1 div {
+  width: 80px;
+  height: 33.333%;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.5em;
+  line-height: 80px;
+  letter-spacing: 4px;
+}
+#b1 {
+  background-color: aqua;
+  &:hover {
+    background-color: rgb(12, 124, 124);
+    cursor: crosshair;
+  }
+}
+#b2 {
+  background-color: aquamarine;
+  &:hover {
+    background-color: rgb(12, 124, 124);
+    cursor: crosshair;
+  }
+}
+#b3 {
+  background-color: rgb(17, 240, 166);
+  &:hover {
+    background-color: rgb(12, 124, 124);
+    cursor: crosshair;
+  }
+}
